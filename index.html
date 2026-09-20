@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enternine - Kebijakan Privasi</title>
+    <title>Kebijakan Privasi - CashBook</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -12,127 +12,144 @@
             color: #1a1a1a;
             background: #f5f5f5;
             padding: 24px 16px;
-            min-height: 100vh;
         }
         .container {
-            max-width: 720px;
+            max-width: 800px;
             margin: 40px auto;
             background: #ffffff;
             padding: 48px 40px;
             border-radius: 12px;
             box-shadow: 0 2px 12px rgba(0,0,0,0.06);
         }
-        .logo {
-            text-align: center;
-            margin-bottom: 8px;
-        }
-        .logo-text {
-            display: inline-block;
-            font-size: 24px;
-            font-weight: 700;
-            color: #006064;
-            letter-spacing: 2px;
-            padding: 12px 24px;
-            background: #E0F7FA;
-            border-radius: 8px;
-        }
         h1 {
-            text-align: center;
-            color: #1a1a1a;
-            font-size: 24px;
-            margin-top: 24px;
+            color: #006064;
+            font-size: 28px;
             margin-bottom: 8px;
+            border-bottom: 3px solid #B2EBF2;
+            padding-bottom: 12px;
         }
         .subtitle {
-            text-align: center;
             color: #757575;
             font-size: 14px;
-            margin-bottom: 40px;
+            margin-bottom: 32px;
         }
-        .app-list {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-        .app-card {
-            display: block;
-            padding: 20px 24px;
-            background: #fafafa;
-            border: 1px solid #eee;
-            border-left: 4px solid #0097A7;
-            border-radius: 8px;
-            text-decoration: none;
-            color: inherit;
-            transition: all 0.2s ease;
-        }
-        .app-card:hover {
-            background: #E0F7FA;
-            border-left-color: #006064;
-            transform: translateX(4px);
-        }
-        .app-card h3 {
+        h2 {
             color: #006064;
-            font-size: 18px;
-            margin-bottom: 4px;
+            font-size: 19px;
+            margin-top: 32px;
+            margin-bottom: 12px;
         }
-        .app-card p {
-            color: #555;
-            font-size: 14px;
+        p, li {
+            font-size: 15px;
+            color: #333;
+            margin-bottom: 12px;
         }
-        .app-card .arrow {
-            color: #0097A7;
-            font-size: 20px;
-            float: right;
-            margin-top: -28px;
+        ul { padding-left: 24px; }
+        li { margin-bottom: 6px; }
+        a { color: #0097A7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact-box {
+            background: #E0F7FA;
+            border-left: 4px solid #0097A7;
+            padding: 16px 20px;
+            border-radius: 6px;
+            margin-top: 24px;
         }
+        .contact-box p { margin-bottom: 6px; }
         .footer {
             text-align: center;
-            margin-top: 48px;
-            padding-top: 24px;
+            margin-top: 40px;
+            padding-top: 20px;
             border-top: 1px solid #eee;
             font-size: 13px;
             color: #999;
         }
-        .footer a {
-            color: #0097A7;
-            text-decoration: none;
-        }
         @media (max-width: 600px) {
             .container { padding: 32px 20px; margin: 16px auto; }
-            h1 { font-size: 20px; }
+            h1 { font-size: 22px; }
+            h2 { font-size: 17px; }
         }
     </style>
 </head>
 <body>
     <div class="container">
 
-        <div class="logo">
-            <span class="logo-text">ENTERNINE</span>
-        </div>
-
         <h1>Kebijakan Privasi</h1>
-        <p class="subtitle">Pilih aplikasi untuk melihat kebijakan privasinya</p>
+        <p class="subtitle">CashBook &mdash; Terakhir diperbarui: 20 September 2026</p>
 
-        <div class="app-list">
+        <p>
+            Kebijakan Privasi ini menjelaskan bagaimana <strong>CashBook</strong>
+            ("Aplikasi", "kami") yang dikembangkan oleh <strong>Enternine</strong>
+            mengumpulkan, menggunakan, dan melindungi informasi Anda saat
+            menggunakan aplikasi kami. Kami berkomitmen untuk melindungi
+            privasi Anda dan transparan tentang data yang kami proses.
+        </p>
 
-            <a href="cashbook.html" class="app-card">
-                <h3>CashBook <span class="arrow">→</span></h3>
-                <p>Aplikasi pencatat keuangan pribadi</p>
-            </a>
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p>CashBook adalah aplikasi pencatat keuangan pribadi. Kami mengumpulkan informasi berikut:</p>
+        <ul>
+            <li><strong>Informasi Akun Google (opsional)</strong> &mdash; Jika Anda login dengan Google, kami menerima nama, alamat email, dan foto profil Anda untuk keperluan backup data dan identifikasi akun.</li>
+            <li><strong>Data Keuangan</strong> &mdash; Catatan pemasukan, pengeluaran, hutang, piutang, aset, dan sumber dana yang Anda masukkan. Data ini disimpan secara lokal di perangkat Anda dan (jika login) dicadangkan ke server kami untuk sinkronisasi.</li>
+            <li><strong>Data Penggunaan</strong> &mdash; Statistik anonim tentang cara Anda menggunakan aplikasi, untuk perbaikan fitur.</li>
+        </ul>
 
-            <!-- Nanti tambahkan di sini kalau EnternineAppos sudah siap -->
-            <!--
-            <a href="appos.html" class="app-card">
-                <h3>EnternineAppos <span class="arrow">→</span></h3>
-                <p>Aplikasi Point of Sale</p>
-            </a>
-            -->
+        <h2>2. Bagaimana Kami Menggunakan Informasi Anda</h2>
+        <ul>
+            <li>Menyimpan dan menampilkan catatan keuangan Anda.</li>
+            <li>Melakukan backup dan sinkronisasi data antar perangkat.</li>
+            <li>Mengirim notifikasi pengingat (jika Anda aktifkan).</li>
+            <li>Meningkatkan kualitas aplikasi dan pengalaman pengguna.</li>
+        </ul>
 
+        <h2>3. Penyimpanan dan Keamanan Data</h2>
+        <p>
+            Data keuangan Anda disimpan di perangkat secara lokal menggunakan
+            database terenkripsi. Jika Anda login dengan Google, data juga
+            dicadangkan ke server aman (Firebase) yang hanya dapat diakses oleh akun Anda.
+        </p>
+        <p>
+            Kami tidak menjual, menyewakan, atau membagikan data pribadi Anda
+            kepada pihak ketiga untuk tujuan pemasaran.
+        </p>
+
+        <h2>4. Berbagi Data dengan Pihak Ketiga</h2>
+        <p>Kami hanya menggunakan layanan pihak ketiga berikut:</p>
+        <ul>
+            <li><strong>Google Firebase</strong> &mdash; untuk autentikasi login dan backup data.</li>
+            <li><strong>Google Play Services</strong> &mdash; untuk fitur dasar aplikasi.</li>
+        </ul>
+        <p>Layanan ini memiliki kebijakan privasi sendiri yang dapat Anda baca di situs resmi mereka.</p>
+
+        <h2>5. Hak Anda</h2>
+        <p>Anda berhak untuk:</p>
+        <ul>
+            <li>Mengakses semua data yang kami simpan tentang Anda.</li>
+            <li>Menghapus akun dan semua data Anda kapan saja melalui menu "Reset Data" di aplikasi.</li>
+            <li>Menonaktifkan backup cloud dengan tidak login ke akun Google.</li>
+            <li>Menghubungi kami untuk pertanyaan seputar data Anda.</li>
+        </ul>
+
+        <h2>6. Data Anak-anak</h2>
+        <p>
+            Aplikasi ini tidak ditujukan untuk anak di bawah usia 13 tahun.
+            Kami tidak dengan sengaja mengumpulkan data dari anak-anak.
+        </p>
+
+        <h2>7. Perubahan Kebijakan</h2>
+        <p>
+            Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu.
+            Perubahan akan diumumkan di halaman ini dengan tanggal "Terakhir diperbarui".
+        </p>
+
+        <h2>8. Hubungi Kami</h2>
+        <div class="contact-box">
+            <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi:</p>
+            <p><strong>Email:</strong> <a href="mailto:enternineappos@gmail.com">enternineappos@gmail.com</a></p>
+            <p><strong>Developer:</strong> Enternine</p>
         </div>
 
         <div class="footer">
-            &copy; 2026 Enternine. All rights reserved.<br>
-            Kontak: <a href="mailto:enternineappos@gmail.com">enternineappos@gmail.com</a>
+            &copy; 2026 Enternine. All rights reserved.
         </div>
 
     </div>
